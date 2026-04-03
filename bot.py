@@ -223,7 +223,7 @@ async def handle_menu_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE
         lang_names = {"uz": "o'zbek", "ru": "rus", "en": "ingliz"}
         await update.message.reply_text(
             f"🌐 *Tarjima rejimi* yoqildi!\n"
-            f"Matnni yuboring — {lang_names.get(user['lang'], 'o\'zbek')} tiliga tarjima qilaman.\n"
+            "Matnni yuboring — tarjima qilaman.\n"
             f"(Tilni ⚙️ Sozlamalar dan o'zgartiring)",
             parse_mode="Markdown", reply_markup=main_menu_keyboard()
         )
