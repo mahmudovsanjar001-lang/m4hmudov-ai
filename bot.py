@@ -224,7 +224,7 @@ async def handle_menu_buttons(update: Update, context: ContextTypes.DEFAULT_TYPE
         await update.message.reply_text(
             f"🌐 *Tarjima rejimi* yoqildi!\n"
             "Matnni yuboring — tarjima qilaman.\n"
-            f"(Tilni ⚙️ Sozlamalar dan o'zgartiring)",
+            "(Tilni Sozlamalar dan ozgartiring)",
             parse_mode="Markdown", reply_markup=main_menu_keyboard()
         )
     elif text == "💻 Kod yozish":
